@@ -3,15 +3,13 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <div>
-        <userInfoForm />
-      </div>
-    </>
+    <div>
+      <UserInfoForm />
+    </div>
   );
 }
 
-const userInfoForm = () => {
+const UserInfoForm = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   return (
